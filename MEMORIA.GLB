@@ -1,0 +1,10 @@
+Global NumPeças As Integer
+Global TipoAtual As Integer
+Global ContaDupla As Integer
+Global Primeira As Integer
+Global Segunda As Integer
+Global Temporizador As Double
+Declare Function GetPrivateProfileInt Lib "Kernel" (ByVal Appname As String, ByVal KeyName As String, ByVal DEFAULT As Integer, ByVal FileName As String) As Integer
+Declare Function GetPrivateProfileString Lib "Kernel" (ByVal Appname As String, ByVal KeyName As String, ByVal DEFAULT As String, ByVal ReturnedString As String, ByVal MaxSize As Integer, ByVal FileName As String) As Integer
+Declare Function WritePrivateProfileString Lib "Kernel" (ByVal Appname As String, ByVal KeyName As String, ByVal NewString As String, ByVal FileName As String) As Integer
+
